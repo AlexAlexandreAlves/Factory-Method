@@ -4,6 +4,7 @@ abstract class Logistica {
     public abstract factoryMethod(): Transporte;
 
 }
+
 /*Criando a chamada da interface 'transporte'*/
 interface Transporte {
     operation(): string;
